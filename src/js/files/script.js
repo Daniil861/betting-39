@@ -9,7 +9,7 @@ export function initStartData() {
 	if (sessionStorage.getItem('money')) {
 		writeScore();
 	} else {
-		sessionStorage.setItem('money', 850);
+		sessionStorage.setItem('money', 15000);
 		writeScore();
 	}
 
